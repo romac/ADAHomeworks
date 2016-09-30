@@ -19,5 +19,5 @@
   $ ~/anaconda/bin/jupyter notebook
   ```
 
-3. Navigate to `http://localhost:8888/` and start working on the notebooks
+3. Navigate to [`http://localhost:8888/`](http://localhost:8888/) and start working on the notebooks
 
