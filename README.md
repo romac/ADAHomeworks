@@ -13,11 +13,11 @@
 1. Install [Anaconda](https://www.continuum.io/downloads)
 2. Run the following commands in a terminal:
 
-```bash
-$ git clone https://github.com/romac/ADAHomeworks.git
-$ cd ADAHomeworks
-$ ~/anaconda/bin/jupyter notebook
-```
+  ```bash
+  $ git clone https://github.com/romac/ADAHomeworks.git
+  $ cd ADAHomeworks
+  $ ~/anaconda/bin/jupyter notebook
+  ```
 
 3. Navigate to `http://localhost:8888/` and start working on the notebooks
 
