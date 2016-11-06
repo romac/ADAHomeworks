@@ -5,7 +5,7 @@
 ## Team
 
 - Dylan Bourgeois ([@dtsbourg](https://github.com/dtsbourg))
-- Simon Mainardi ([@SimonNtz](https://github.com/SimonNtz))
+- Simon Noetzlin ([@SimonNtz](https://github.com/SimonNtz))
 - Romain Ruetschi ([@romac](https://github.com/romac))
 
 ## Usage
