@@ -53,16 +53,16 @@ if __name__ == '__main__':
     for idx, mail in mail_df.iterrows():
         text = str(mail['ExtractedSubject']) + ' ' + str(mail['ExtractedBodyText'])
         tokens = tokenize_and_stem(text)
-        texts.extend(tokens)
+        texts.append(tokens)
 
     print('=> Done.')
 
     print('Creating dictionary...')
-    dictionary = corpora.Dictionary([texts])
+    dictionary = corpora.Dictionary(texts)
     print('=> Done.')
 
     print('Creating dictionary...')
-    corpus = [dictionary.doc2bow([text]) for text in texts]
+    corpus = [dictionary.doc2bow(text) for text in texts]
     print('=> Done.')
 
     print('Creating model...')
